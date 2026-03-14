@@ -66,15 +66,36 @@ Not feeling that bold? Try one of these lighter variants:
 
 This is optional, not mandatory. Pick the level you're comfortable with.
 
-## Tech stack
+## Language options
 
-- Kotlin 2.3.0
-- JDK 25
-- Gradle (Kotlin DSL)
+Pick the language you're most comfortable with. Each has its own folder with a ready-to-go project scaffold.
 
-## Getting started
+### Kotlin (recommended)
+
+- Kotlin 2.3.0, JDK 25, Gradle (Kotlin DSL)
 
 ```bash
+cd kotlin
 ./gradlew build
 ./gradlew run --args="AABABBAB"
+```
+
+### Java
+
+- JDK 25, Gradle (Kotlin DSL)
+
+```bash
+cd java
+./gradlew build
+./gradlew run --args="AABABBAB"
+```
+
+### TypeScript
+
+- TypeScript 5.8+, Node.js
+
+```bash
+cd typescript
+npm install
+npm start -- AABABBAB
 ```
