@@ -1,5 +1,7 @@
 # Transport Tycoon Kata
 
+Original kata: [Transport Tycoon by Trustbit](https://github.com/trustbit/exercises/blob/master/transport-tycoon-1.md)
+
 ## Exercises
 
 - [Exercise 1.1](#exercise-11)
